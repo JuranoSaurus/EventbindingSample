@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btnFirst" />
+    <Button
+        android:id="@+id/btnSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btnSecond" />
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_third" />
+    <Button
+        android:id="@+id/btn_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_fourth" />
+    <Button
+        android:id="@+id/btn_fourth_clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_fourth_clicked" />
+    <Button
+        android:id="@+id/btn_fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_fifth" />
+    <Button
+        android:id="@+id/btn_sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_sixth" />
+    <Button
+        android:id="@+id/btn_seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_seventh" />
+
+</LinearLayout>
