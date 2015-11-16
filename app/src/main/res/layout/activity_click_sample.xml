@@ -6,7 +6,7 @@
 
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="\@Click sample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -50,5 +50,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="btn_seventh" />
+
+    <Button
+        android:id="@+id/btn_long_click_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO LONG CLICK SAMPLE ACTIVITY" />
 
 </LinearLayout>

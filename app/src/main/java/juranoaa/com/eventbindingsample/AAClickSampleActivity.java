@@ -1,6 +1,7 @@
 package juranoaa.com.eventbindingsample;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -8,7 +9,7 @@ import android.widget.Toast;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 
-@EActivity(R.layout.activity_main)
+@EActivity(R.layout.activity_click_sample)
 public class AAClickSampleActivity extends Activity {
 
     /** 기본: layout id를 이용한 수동 바인딩 */
@@ -48,4 +49,35 @@ public class AAClickSampleActivity extends Activity {
         String text = ((Button)clickedView).getText().toString();
         Toast.makeText(AAClickSampleActivity.this, "Wow, " + text + " was clicked!", Toast.LENGTH_SHORT).show();
     }
+
+    @Click
+    void btnLongClickActivityClicked() {
+        Intent intent = new Intent(this, AALongClickSampleActivity_.class);
+        startActivity(intent);
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
