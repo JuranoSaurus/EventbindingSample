@@ -49,13 +49,6 @@ public class AAClickSampleActivity extends Activity {
         String text = ((Button)clickedView).getText().toString();
         Toast.makeText(AAClickSampleActivity.this, "Wow, " + text + " was clicked!", Toast.LENGTH_SHORT).show();
     }
-
-    @Click
-    void btnLongClickActivityClicked() {
-        Intent intent = new Intent(this, AALongClickSampleActivity_.class);
-        startActivity(intent);
-    }
-
 }
 
 

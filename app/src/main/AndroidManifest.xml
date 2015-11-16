@@ -7,8 +7,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
-            android:name=".AAClickSampleActivity_"
+            android:name=".AAMainActivity_"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +19,18 @@
         </activity>
 
         <activity
+            android:name=".AAClickSampleActivity_"
+            android:label="AAClickSampleActivity" >
+        </activity>
+        <activity
             android:name=".AALongClickSampleActivity_"
-            android:label="@string/app_name" />
+            android:label="AALongClickSampleActivity">
+        </activity>
+        <activity
+            android:name=".AATouchSampleActivity_"
+            android:label="AATouchSampleActivity">
+        </activity>
+
     </application>
 
 </manifest>

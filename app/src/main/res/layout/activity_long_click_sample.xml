@@ -14,7 +14,7 @@
         android:id="@+id/btn_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="btn_first" />
+        android:text="btn_first (name collision)" />
 
     <Button
         android:id="@+id/btn_long_first"
