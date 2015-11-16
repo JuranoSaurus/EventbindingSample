@@ -4,21 +4,39 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/btn_click_sample_activity_call"
+        android:id="@+id/btn_aa_click_sample_activity_call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="goto \@Click sample"/>
 
     <Button
-        android:id="@+id/btn_long_click_sample_activity_call"
+        android:id="@+id/btn_click_sample_activity_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto Click sample"/>
+
+    <Button
+        android:id="@+id/btn_aa_long_click_sample_activity_call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="goto \@LongClick sample"/>
 
     <Button
-        android:id="@+id/btn_touch_sample_activity_call"
+        android:id="@+id/btn_long_click_sample_activity_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto LongClick sample"/>
+
+    <Button
+        android:id="@+id/btn_aa_touch_sample_activity_call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="goto \@Touch sample"/>
+
+    <Button
+        android:id="@+id/btn_touch_sample_activity_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto Touch sample"/>
 
 </LinearLayout>

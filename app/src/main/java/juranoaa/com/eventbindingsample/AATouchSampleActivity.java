@@ -1,14 +1,11 @@
 package juranoaa.com.eventbindingsample;
 
 import android.app.Activity;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.LongClick;
 import org.androidannotations.annotations.Touch;
 import org.androidannotations.annotations.ViewById;
 
@@ -30,16 +27,16 @@ public class AATouchSampleActivity extends Activity {
 
     /** R.id.imageView와 암시적 바인딩 + 파라미터 */
     @Touch
-    void imageViewTouched(View view, MotionEvent e) {
-        switch (e.getAction()){
+    void imageViewTouched(View v, MotionEvent event) {
+        switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
-                touchStatus.setText("imageViewTouched() ACTION_DOWN, x:" + e.getX() + ", y:" + e.getY());
+                touchStatus.setText("imageViewTouched() ACTION_DOWN, x:" + event.getX() + ", y:" + event.getY());
                 break;
             case MotionEvent.ACTION_MOVE:
-                touchStatus.setText("imageViewTouched() ACTION_MOVE, x:" + e.getX() + ", y:" + e.getY());
+                touchStatus.setText("imageViewTouched() ACTION_MOVE, x:" + event.getX() + ", y:" + event.getY());
                 break;
             case MotionEvent.ACTION_UP:
-                touchStatus.setText("imageViewTouched() ACTION_UP, x:" + e.getX() + ", y:" + e.getY());
+                touchStatus.setText("imageViewTouched() ACTION_UP, x:" + event.getX() + ", y:" + event.getY());
                 break;
         }
     }

@@ -23,12 +23,24 @@
             android:label="AAClickSampleActivity" >
         </activity>
         <activity
+            android:name=".ClickSampleActivity"
+            android:label="ClickSampleActivity" >
+        </activity>
+        <activity
             android:name=".AALongClickSampleActivity_"
             android:label="AALongClickSampleActivity">
         </activity>
         <activity
+            android:name=".LongClickSampleActivity"
+            android:label="LongClickSampleActivity">
+        </activity>
+        <activity
             android:name=".AATouchSampleActivity_"
             android:label="AATouchSampleActivity">
+        </activity>
+        <activity
+            android:name=".TouchSampleActivity"
+            android:label="TouchSampleActivity">
         </activity>
 
     </application>
