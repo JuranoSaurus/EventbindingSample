@@ -1,4 +1,4 @@
-package juranoaa.com.eventbindingsample;
+package com.juranoaa.eventbindingsample;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -43,6 +43,18 @@ public class AAMainActivity extends Activity {
     @Click
     void btnTouchSampleActivityCallClicked() {
         intent = new Intent(this, TouchSampleActivity.class);
+        startActivity(intent);
+    }
+
+    @Click(R.id.btn_aa_item_click_sample_activity_call)
+    void btnAAItemClickSampleActivityCallClicked() {
+        intent = new Intent(this, AAItemClickSampleActivity_.class);
+        startActivity(intent);
+    }
+
+    @Click
+    void btnItemClickSampleActivityCallClicked() {
+        intent = new Intent(this, ItemClickSampleActivity.class);
         startActivity(intent);
     }
 

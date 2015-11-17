@@ -1,4 +1,4 @@
-package juranoaa.com.eventbindingsample;
+package com.juranoaa.eventbindingsample;
 
 import android.app.Activity;
 import android.view.View;
@@ -49,27 +49,3 @@ public class AAClickSampleActivity extends Activity {
         Toast.makeText(AAClickSampleActivity.this, "Wow, " + text + " was clicked!", Toast.LENGTH_SHORT).show();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

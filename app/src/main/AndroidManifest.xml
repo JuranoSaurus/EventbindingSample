@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="juranoaa.com.eventbindingsample" >
+    package="com.juranoaa.eventbindingsample" >
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name=".AAMainActivity_"
+            android:name="com.juranoaa.eventbindingsample.AAMainActivity_"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,28 +19,36 @@
         </activity>
 
         <activity
-            android:name=".AAClickSampleActivity_"
+            android:name="com.juranoaa.eventbindingsample.AAClickSampleActivity_"
             android:label="AAClickSampleActivity" >
         </activity>
         <activity
-            android:name=".ClickSampleActivity"
+            android:name="com.juranoaa.eventbindingsample.ClickSampleActivity"
             android:label="ClickSampleActivity" >
         </activity>
         <activity
-            android:name=".AALongClickSampleActivity_"
+            android:name="com.juranoaa.eventbindingsample.AALongClickSampleActivity_"
             android:label="AALongClickSampleActivity">
         </activity>
         <activity
-            android:name=".LongClickSampleActivity"
+            android:name="com.juranoaa.eventbindingsample.LongClickSampleActivity"
             android:label="LongClickSampleActivity">
         </activity>
         <activity
-            android:name=".AATouchSampleActivity_"
+            android:name="com.juranoaa.eventbindingsample.AATouchSampleActivity_"
             android:label="AATouchSampleActivity">
         </activity>
         <activity
-            android:name=".TouchSampleActivity"
+            android:name="com.juranoaa.eventbindingsample.TouchSampleActivity"
             android:label="TouchSampleActivity">
+        </activity>
+        <activity
+            android:name=".AAItemClickSampleActivity_"
+            android:label="AAItemClickActivity">
+        </activity>
+        <activity
+            android:name="com.juranoaa.eventbindingsample.ItemClickSampleActivity"
+            android:label="ItemClickSampleActivity">
         </activity>
 
     </application>

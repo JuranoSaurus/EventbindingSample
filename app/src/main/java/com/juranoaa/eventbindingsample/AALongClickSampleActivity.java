@@ -1,4 +1,4 @@
-package juranoaa.com.eventbindingsample;
+package com.juranoaa.eventbindingsample;
 
 import android.app.Activity;
 import android.widget.Toast;
