@@ -50,7 +50,14 @@
             android:name="com.juranoaa.eventbindingsample.ItemClickSampleActivity"
             android:label="ItemClickSampleActivity">
         </activity>
-
+        <activity
+            android:name="com.juranoaa.eventbindingsample.AAItemSelectSampleActivity_"
+            android:label="AAItemSelectSampleActivity">
+        </activity>
+        <activity
+            android:name="com.juranoaa.eventbindingsample.ItemSelectSampleActivity"
+            android:label="AAItemSelectSampleActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -50,6 +50,7 @@ public class AAItemClickSampleActivity extends Activity {
                         ", text: " + items.get(position), Toast.LENGTH_SHORT).show();
     }
 
+    /** listView에 대한 암시적 바인딩 */
     @ItemLongClick
     public void listViewItemLongClicked(int position) {
         Toast.makeText(AAItemClickSampleActivity.this, "long clicked, item position: " + position +

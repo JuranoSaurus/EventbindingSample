@@ -58,4 +58,16 @@ public class AAMainActivity extends Activity {
         startActivity(intent);
     }
 
+    @Click(R.id.btn_aa_item_select_sample_activity_call)
+    void btnAAItemSelectSampleActivityCallClicked() {
+        intent = new Intent(this, AAItemSelectSampleActivity_.class);
+        startActivity(intent);
+    }
+
+
+    @Click
+    void btnItemSelectSampleActivityCallClicked() {
+        intent = new Intent(this, ItemSelectSampleActivity.class);
+        startActivity(intent);
+    }
 }
