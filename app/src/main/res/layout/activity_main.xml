@@ -3,76 +3,118 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_aa_click_sample_activity_call"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="goto \@Click sample"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_click_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@Click sample"/>
 
-    <Button
-        android:id="@+id/btn_click_sample_activity_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="goto Click sample"/>
+        <Button
+            android:id="@+id/btn_click_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto Click sample"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_aa_long_click_sample_activity_call"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="goto \@LongClick sample"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_long_click_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@LongClick sample"/>
 
-    <Button
-        android:id="@+id/btn_long_click_sample_activity_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="goto LongClick sample"/>
+        <Button
+            android:id="@+id/btn_long_click_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto LongClick sample"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_aa_touch_sample_activity_call"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="goto \@Touch sample"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_touch_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@Touch sample"/>
 
-    <Button
-        android:id="@+id/btn_touch_sample_activity_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="goto Touch sample"/>
+        <Button
+            android:id="@+id/btn_touch_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto Touch sample"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_aa_item_click_sample_activity_call"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="goto \@ItemClick sample"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_item_click_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@ItemClick sample"/>
 
-    <Button
-        android:id="@+id/btn_item_click_sample_activity_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="goto ItemClick sample"/>
+        <Button
+            android:id="@+id/btn_item_click_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto ItemClick sample"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_item_select_sample_activity_call"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="goto ItemSelect sample"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_item_select_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@ItemSelect sample"/>
 
-    <Button
-        android:id="@+id/btn_aa_item_select_sample_activity_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="goto \@ItemSelect sample"/>
+        <Button
+            android:id="@+id/btn_item_select_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto ItemSelect sample"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_seek_bar_sample_activity_call"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="goto SeekBar sample"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_seek_bar_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@SeekBar sample"/>
 
-    <Button
-        android:id="@+id/btn_aa_seek_bar_sample_activity_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="goto \@SeekBar sample"/>
+        <Button
+            android:id="@+id/btn_seek_bar_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto SeekBar sample"/>
+    </LinearLayout>
 
 </LinearLayout>

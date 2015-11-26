@@ -5,11 +5,6 @@ import android.os.Bundle;
 import android.widget.SeekBar;
 import android.widget.Toast;
 
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.SeekBarProgressChange;
-import org.androidannotations.annotations.SeekBarTouchStart;
-import org.androidannotations.annotations.SeekBarTouchStop;
-
 public class SeekBarSampleActivity extends Activity {
     private SeekBar seekBar = null;
 

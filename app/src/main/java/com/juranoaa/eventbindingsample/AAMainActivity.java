@@ -82,5 +82,4 @@ public class AAMainActivity extends Activity {
         startActivity(intent);
     }
 
-
 }
