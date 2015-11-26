@@ -3,6 +3,21 @@ package com.juranoaa.eventbindingsample;
 import android.app.Activity;
 import android.content.Intent;
 
+import com.juranoaa.eventbindingsample.adapterview.AAItemClickSampleActivity_;
+import com.juranoaa.eventbindingsample.adapterview.AAItemSelectSampleActivity_;
+import com.juranoaa.eventbindingsample.adapterview.ItemClickSampleActivity;
+import com.juranoaa.eventbindingsample.adapterview.ItemSelectSampleActivity;
+import com.juranoaa.eventbindingsample.clickandtouch.AAClickSampleActivity_;
+import com.juranoaa.eventbindingsample.clickandtouch.AALongClickSampleActivity_;
+import com.juranoaa.eventbindingsample.clickandtouch.AATouchSampleActivity_;
+import com.juranoaa.eventbindingsample.clickandtouch.ClickSampleActivity;
+import com.juranoaa.eventbindingsample.clickandtouch.LongClickSampleActivity;
+import com.juranoaa.eventbindingsample.clickandtouch.TouchSampleActivity;
+import com.juranoaa.eventbindingsample.seekbar.AASeekBarSampleActivity_;
+import com.juranoaa.eventbindingsample.seekbar.SeekBarSampleActivity;
+import com.juranoaa.eventbindingsample.text.AATextChangeSampleActivity_;
+import com.juranoaa.eventbindingsample.text.TextChangeSampleActivity;
+
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 
@@ -79,6 +94,18 @@ public class AAMainActivity extends Activity {
     @Click
     void btnSeekBarSampleActivityCallClicked() {
         intent = new Intent(this, SeekBarSampleActivity.class);
+        startActivity(intent);
+    }
+
+    @Click(R.id.btn_aa_text_change_sample_activity_call)
+    void btnAATextChangeSampleActivityCallClicked() {
+        intent = new Intent(this, AATextChangeSampleActivity_.class);
+        startActivity(intent);
+    }
+
+    @Click
+    void btnTextChangeSampleActivityCallClicked() {
+        intent = new Intent(this, TextChangeSampleActivity.class);
         startActivity(intent);
     }
 

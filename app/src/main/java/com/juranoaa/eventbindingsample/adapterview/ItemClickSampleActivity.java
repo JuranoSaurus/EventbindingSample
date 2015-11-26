@@ -1,14 +1,14 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.adapterview;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 import java.util.ArrayList;
 import java.util.List;

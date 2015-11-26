@@ -1,9 +1,11 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.adapterview;
 
 import android.app.Activity;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ItemSelect;

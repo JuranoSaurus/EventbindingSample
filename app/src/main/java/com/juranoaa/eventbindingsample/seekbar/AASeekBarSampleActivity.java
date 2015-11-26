@@ -1,8 +1,10 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.seekbar;
 
 import android.app.Activity;
 import android.widget.SeekBar;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.SeekBarProgressChange;
@@ -12,9 +14,9 @@ import org.androidannotations.annotations.SeekBarTouchStop;
 @EActivity(R.layout.activity_seek_bar_sample)
 public class AASeekBarSampleActivity extends Activity {
 
-    /** 자동으로 메소드명 추론이 되지 않았다. */
+    /** 자동으로 메소드명 추론이 되지 않는다. */
     @SeekBarProgressChange(R.id.seek_bar)
-    void onProgressChangeOnSeekBar(SeekBar seekBar, int progress, boolean fromUser) {
+    void seekBarProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
         Toast.makeText(AASeekBarSampleActivity.this,
                 "onProgressChangeOnSeekBar() invoked. progess: " + progress + ", fromUser: " + fromUser,
                 Toast.LENGTH_SHORT).show();

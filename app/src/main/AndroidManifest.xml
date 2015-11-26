@@ -17,41 +17,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AAClickSampleActivity_"
+            android:name=".clickandtouch.AAClickSampleActivity_"
             android:label="AAClickSampleActivity"></activity>
         <activity
-            android:name=".ClickSampleActivity"
+            android:name=".clickandtouch.ClickSampleActivity"
             android:label="ClickSampleActivity"></activity>
         <activity
-            android:name=".AALongClickSampleActivity_"
+            android:name=".clickandtouch.AALongClickSampleActivity_"
             android:label="AALongClickSampleActivity"></activity>
         <activity
-            android:name=".LongClickSampleActivity"
+            android:name=".clickandtouch.LongClickSampleActivity"
             android:label="LongClickSampleActivity"></activity>
         <activity
-            android:name=".AATouchSampleActivity_"
+            android:name=".clickandtouch.AATouchSampleActivity_"
             android:label="AATouchSampleActivity"></activity>
         <activity
-            android:name=".TouchSampleActivity"
+            android:name=".clickandtouch.TouchSampleActivity"
             android:label="TouchSampleActivity"></activity>
         <activity
-            android:name=".AAItemClickSampleActivity_"
+            android:name=".adapterview.AAItemClickSampleActivity_"
             android:label="AAItemClickActivity"></activity>
         <activity
-            android:name=".ItemClickSampleActivity"
+            android:name=".adapterview.ItemClickSampleActivity"
             android:label="ItemClickSampleActivity"></activity>
         <activity
-            android:name=".AAItemSelectSampleActivity_"
+            android:name=".adapterview.AAItemSelectSampleActivity_"
             android:label="AAItemSelectSampleActivity"></activity>
         <activity
-            android:name=".ItemSelectSampleActivity"
+            android:name=".adapterview.ItemSelectSampleActivity"
             android:label="AAItemSelectSampleActivity"></activity>
         <activity
-            android:name=".AASeekBarSampleActivity_"
+            android:name=".seekbar.AASeekBarSampleActivity_"
             android:label="AASeekBarSampleActivity"></activity>
         <activity
-            android:name=".SeekBarSampleActivity"
+            android:name=".seekbar.SeekBarSampleActivity"
             android:label="SeekBarSampleActivity"></activity>
+        <activity
+            android:name=".text.AATextChangeSampleActivity_"
+            android:label="AATextChangeSampleActivity"></activity>
+        <activity
+            android:name=".text.TextChangeSampleActivity"
+            android:label="TextChangeSampleActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.adapterview;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 import java.util.ArrayList;
 import java.util.List;

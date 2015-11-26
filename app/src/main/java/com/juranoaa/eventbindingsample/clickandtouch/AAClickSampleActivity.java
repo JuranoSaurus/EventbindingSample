@@ -1,9 +1,11 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.clickandtouch;
 
 import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;

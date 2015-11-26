@@ -1,9 +1,11 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.seekbar;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.SeekBar;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 public class SeekBarSampleActivity extends Activity {
     private SeekBar seekBar = null;

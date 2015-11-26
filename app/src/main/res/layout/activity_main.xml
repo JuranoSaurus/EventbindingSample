@@ -117,4 +117,23 @@
             android:text="goto SeekBar sample"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_aa_text_change_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto \@TextChange sample"/>
+
+        <Button
+            android:id="@+id/btn_text_change_sample_activity_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="goto TextChange sample"/>
+    </LinearLayout>
+
 </LinearLayout>

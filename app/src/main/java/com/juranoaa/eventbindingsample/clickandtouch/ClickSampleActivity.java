@@ -1,10 +1,12 @@
-package com.juranoaa.eventbindingsample;
+package com.juranoaa.eventbindingsample.clickandtouch;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.juranoaa.eventbindingsample.R;
 
 /**
  * Created by slhyv on 2015-11-17.
