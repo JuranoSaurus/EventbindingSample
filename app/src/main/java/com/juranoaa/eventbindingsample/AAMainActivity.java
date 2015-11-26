@@ -64,10 +64,23 @@ public class AAMainActivity extends Activity {
         startActivity(intent);
     }
 
-
     @Click
     void btnItemSelectSampleActivityCallClicked() {
         intent = new Intent(this, ItemSelectSampleActivity.class);
         startActivity(intent);
     }
+
+    @Click(R.id.btn_aa_seek_bar_sample_activity_call)
+    void btnAASeekBarSampleActivityCallClicked() {
+        intent = new Intent(this, AASeekBarSampleActivity_.class);
+        startActivity(intent);
+    }
+
+    @Click
+    void btnSeekBarSampleActivityCallClicked() {
+        intent = new Intent(this, SeekBarSampleActivity.class);
+        startActivity(intent);
+    }
+
+
 }

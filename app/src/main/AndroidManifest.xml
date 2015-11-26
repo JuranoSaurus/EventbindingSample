@@ -1,63 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.juranoaa.eventbindingsample" >
+    package="com.juranoaa.eventbindingsample">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-
+        android:theme="@style/AppTheme">
         <activity
-            android:name="com.juranoaa.eventbindingsample.AAMainActivity_"
-            android:label="@string/app_name" >
+            android:name=".AAMainActivity_"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.juranoaa.eventbindingsample.AAClickSampleActivity_"
-            android:label="AAClickSampleActivity" >
-        </activity>
+            android:name=".AAClickSampleActivity_"
+            android:label="AAClickSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.ClickSampleActivity"
-            android:label="ClickSampleActivity" >
-        </activity>
+            android:name=".ClickSampleActivity"
+            android:label="ClickSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.AALongClickSampleActivity_"
-            android:label="AALongClickSampleActivity">
-        </activity>
+            android:name=".AALongClickSampleActivity_"
+            android:label="AALongClickSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.LongClickSampleActivity"
-            android:label="LongClickSampleActivity">
-        </activity>
+            android:name=".LongClickSampleActivity"
+            android:label="LongClickSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.AATouchSampleActivity_"
-            android:label="AATouchSampleActivity">
-        </activity>
+            android:name=".AATouchSampleActivity_"
+            android:label="AATouchSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.TouchSampleActivity"
-            android:label="TouchSampleActivity">
-        </activity>
+            android:name=".TouchSampleActivity"
+            android:label="TouchSampleActivity"></activity>
         <activity
             android:name=".AAItemClickSampleActivity_"
-            android:label="AAItemClickActivity">
-        </activity>
+            android:label="AAItemClickActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.ItemClickSampleActivity"
-            android:label="ItemClickSampleActivity">
-        </activity>
+            android:name=".ItemClickSampleActivity"
+            android:label="ItemClickSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.AAItemSelectSampleActivity_"
-            android:label="AAItemSelectSampleActivity">
-        </activity>
+            android:name=".AAItemSelectSampleActivity_"
+            android:label="AAItemSelectSampleActivity"></activity>
         <activity
-            android:name="com.juranoaa.eventbindingsample.ItemSelectSampleActivity"
-            android:label="AAItemSelectSampleActivity">
-        </activity>
+            android:name=".ItemSelectSampleActivity"
+            android:label="AAItemSelectSampleActivity"></activity>
+        <activity
+            android:name=".AASeekBarSampleActivity_"
+            android:label="AASeekBarSampleActivity"></activity>
+        <activity
+            android:name=".SeekBarSampleActivity"
+            android:label="SeekBarSampleActivity"></activity>
     </application>
 
 </manifest>

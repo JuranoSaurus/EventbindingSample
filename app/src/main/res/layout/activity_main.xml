@@ -63,4 +63,16 @@
         android:layout_height="wrap_content"
         android:text="goto \@ItemSelect sample"/>
 
+    <Button
+        android:id="@+id/btn_seek_bar_sample_activity_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto SeekBar sample"/>
+
+    <Button
+        android:id="@+id/btn_aa_seek_bar_sample_activity_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto \@SeekBar sample"/>
+
 </LinearLayout>
